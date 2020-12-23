@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\ofekt\Desktop\סורס\ZeusAIO.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DE2D0EE5-6A63-405D-AA45-7C341C9B985B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>ZeusAIO</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Colorful.Console">
+      <HintPath>lib\Colorful.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="Discord.Net.Core">
+      <HintPath>lib\Discord.Net.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Discord.Net.Rest">
+      <HintPath>lib\Discord.Net.Rest.dll</HintPath>
+    </Reference>
+    <Reference Include="Discord.Net.WebSocket">
+      <HintPath>lib\Discord.Net.WebSocket.dll</HintPath>
+    </Reference>
+    <Reference Include="DiscordRPC">
+      <HintPath>lib\DiscordRPC.dll</HintPath>
+    </Reference>
+    <Reference Include="Leaf.xNet">
+      <HintPath>lib\Leaf.xNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProxyChecker\Variables.cs" />
+    <Compile Include="Zee5\Check.cs" />
+    <Compile Include="Yahoo\Check.cs" />
+    <Compile Include="XVPN\Check.cs" />
+    <Compile Include="Waves\Check.cs" />
+    <Compile Include="VyperVpn\Check.cs" />
+    <Compile Include="Vortexgg\Check.cs" />
+    <Compile Include="Voot\Check.cs" />
+    <Compile Include="Valorant\Check.cs" />
+    <Compile Include="Uplay\Check.cs" />
+    <Compile Include="Ullu\Check.cs" />
+    <Compile Include="Udacity\Check.cs" />
+    <Compile Include="TigerVpn\Check.cs" />
+    <Compile Include="Symbolab\Check.cs" />
+    <Compile Include="Surfshark\Check.cs" />
+    <Compile Include="SmoothieKing\Check.cs" />
+    <Compile Include="Smartproxy\Check.cs" />
+    <Compile Include="SliceLife\Check.cs" />
+    <Compile Include="Shopify\Check.cs" />
+    <Compile Include="Shemaroo\Check.cs" />
+    <Compile Include="Shawacademy\Check.cs" />
+    <Compile Include="OutbackSteakHouse\Check.cs" />
+    <Compile Include="Origin\Check.cs" />
+    <Compile Include="NordVpn\Check.cs" />
+    <Compile Include="Napster\Check.cs" />
+    <Compile Include="MyCanal\Check.cs" />
+    <Compile Include="Mingle\Check.cs" />
+    <Compile Include="Minecraft\Check.cs" />
+    <Compile Include="Mailaccess\Check.cs" />
+    <Compile Include="Luminati\Check.cs" />
+    <Compile Include="Leagueoflegends\Check.cs" />
+    <Compile Include="Later\Check.cs" />
+    <Compile Include="IpVanish\Check.cs" />
+    <Compile Include="Imvu\Check.cs" />
+    <Compile Include="IbVpn\Check.cs" />
+    <Compile Include="Hulu\Check.cs" />
+    <Compile Include="HolaVpn\Check.cs" />
+    <Compile Include="HideMyAss\Check.cs" />
+    <Compile Include="Headspace\Check.cs" />
+    <Compile Include="GooseVpn\Check.cs" />
+    <Compile Include="GetUpside\Check.cs" />
+    <Compile Include="Foap\Check.cs" />
+    <Compile Include="Fitbit\Check.cs" />
+    <Compile Include="Elasticemail\Check.cs" />
+    <Compile Include="Easyjet\Check.cs" />
+    <Compile Include="Dualingo\Check.cs" />
+    <Compile Include="DominosUS\Check.cs" />
+    <Compile Include="DCuniverse\Check.cs" />
+    <Compile Include="CrunchyRoll\Check.cs" />
+    <Compile Include="TunnelBear\CookieDictionary.cs" />
+    <Compile Include="TunnelBear\Check.cs" />
+    <Compile Include="ColdStoneCreamery\Check.cs" />
+    <Compile Include="BwwChecker\Check.cs" />
+    <Compile Include="Blim\Check.cs" />
+    <Compile Include="Antipublic\Check.cs" />
+    <Compile Include="Aliexpress\Check.cs" />
+    <Compile Include="Albertsons\Check.cs" />
+    <Compile Include="Aha\Check.cs" />
+    <Compile Include="Abv\Check.cs" />
+    <Compile Include="coinsph\Check.cs" />
+    <Compile Include="Beeg\Check.cs" />
+    <Compile Include="Xcams\Check.cs" />
+    <Compile Include="Wwe\Check.cs" />
+    <Compile Include="Wordpress\Check.cs" />
+    <Compile Include="Wish\Check.cs" />
+    <Compile Include="Viaplay\Check.cs" />
+    <Compile Include="Upcloud\Check.cs" />
+    <Compile Include="UfcTV\Check.cs" />
+    <Compile Include="Twitchlegacy\Check.cs" />
+    <Compile Include="Twitch\Check.cs" />
+    <Compile Include="TubiTV\Check.cs" />
+    <Compile Include="Steam\Check.cs" />
+    <Compile Include="Sling\Check.cs" />
+    <Compile Include="Scribd\Check.cs" />
+    <Compile Include="Robinhood\Check.cs" />
+    <Compile Include="Reddit\Check.cs" />
+    <Compile Include="Postmatesfleet\Check.cs" />
+    <Compile Include="pizzahutukvm\Check.cs" />
+    <Compile Include="Phub\Check.cs" />
+    <Compile Include="Patreon\Check.cs" />
+    <Compile Include="Netflix\Check.cs" />
+    <Compile Include="Nba\Check.cs" />
+    <Compile Include="Microsoftandedumailaccess\Check.cs" />
+    <Compile Include="Md5Hash\Check.cs" />
+    <Compile Include="McAfee\Check.cs" />
+    <Compile Include="Instagram\Check.cs" />
+    <Compile Include="Hotspotshield\Check.cs" />
+    <Compile Include="Gucci\Check.cs" />
+    <Compile Include="Godaddy\Check.cs" />
+    <Compile Include="Gfuel\Check.cs" />
+    <Compile Include="Gamefly\Check.cs" />
+    <Compile Include="Fwrd\Check.cs" />
+    <Compile Include="Fox\Check.cs" />
+    <Compile Include="Forever21\Check.cs" />
+    <Compile Include="Facebook\Check.cs" />
+    <Compile Include="Doordash\Check.cs" />
+    <Compile Include="Coinbase\Check.cs" />
+    <Compile Include="Bitlaunch\Check.cs" />
+    <Compile Include="Bitesquad\Check.cs" />
+    <Compile Include="Bagelboy\Check.cs" />
+    <Compile Include="Avira\Check.cs" />
+    <Compile Include="Apowersoft\Check.cs" />
+    <Compile Include="Adfly\Check.cs" />
+    <Compile Include="ZeusAIO\App.cs" />
+    <Compile Include="ZeusAIO\Constants.cs" />
+    <Compile Include="ZeusAIO\User.cs" />
+    <Compile Include="ZeusAIO\ApplicationSettings.cs" />
+    <Compile Include="ZeusAIO\OnProgramStart.cs" />
+    <Compile Include="ZeusAIO\API.cs" />
+    <Compile Include="ZeusAIO\Security.cs" />
+    <Compile Include="ZeusAIO\Encryption.cs" />
+    <Compile Include="ZeusAIO\InfoManager.cs" />
+    <Compile Include="ZeusAIO\Config.cs" />
+    <Compile Include="ZeusAIO\Export.cs" />
+    <Compile Include="ZeusAIO\Import.cs" />
+    <Compile Include="ZeusAIO\Comboediter.cs" />
+    <Compile Include="ZeusAIO\DiscordRPC.cs" />
+    <Compile Include="ZeusAIO\Login.cs" />
+    <Compile Include="ZeusAIO\mainmenu.cs" />
+    <Compile Include="ZeusAIO\Proxytools.cs" />
+    <Compile Include="ZeusAIO\DiscordBot.cs" />
+    <Compile Include="ZeusAIO\Write.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
